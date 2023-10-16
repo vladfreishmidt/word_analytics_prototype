@@ -14,6 +14,7 @@ body {
 
 textarea {
   all: unset;
+  word-wrap: break-word;
 }
 
 .background {
@@ -98,6 +99,10 @@ textarea {
   font-weight: 600;
   font-size: 35px;
   margin-bottom: 10px;
+}
+
+.stat__number--limit {
+  color: rgb(197, 69, 69);
 }
 
 .second-heading {
